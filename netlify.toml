@@ -1,0 +1,9 @@
+[build]
+  base    = "spmb-frontend"
+  command = "npm run build"
+  publish = "spmb-frontend/dist"
+
+[[redirects]]
+  from = "/*"
+  to   = "/index.html"
+  status = 200
