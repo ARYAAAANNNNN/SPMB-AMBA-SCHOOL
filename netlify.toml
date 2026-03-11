@@ -1,7 +1,7 @@
 [build]
   base    = "spmb-frontend"
   command = "npm run build"
-  publish = "spmb-frontend/dist"
+  publish = "dist"
 
 [[redirects]]
   from = "/*"
